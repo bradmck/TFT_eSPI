@@ -32,8 +32,9 @@
 #define TFT_D6 47
 #define TFT_D7 48
 
-#define TFT_BL 38
-#define TFT_BACKLIGHT_ON HIGH
+// Commenting the backlight allows use of the ledc component in ESPHome for a dimmable backlight
+//#define TFT_BL 38
+//#define TFT_BACKLIGHT_ON HIGH
 
 #define LOAD_GLCD
 #define LOAD_FONT2
